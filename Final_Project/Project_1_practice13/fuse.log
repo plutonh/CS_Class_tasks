@@ -1,0 +1,45 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Xilinx/14.7/Practice/practice13/tb_simulation_isim_beh.exe -prj C:/Xilinx/14.7/Practice/practice13/tb_simulation_beh.prj work.tb_simulation work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Xilinx/14.7/Practice/practice13/WB.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/Practice/practice13/Memory.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/Practice/practice13/LED_channel.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/Practice/practice13/InFetch.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/Practice/practice13/InDecode.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/Practice/practice13/Hazard_detection_unit.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/Practice/practice13/Forwarding_unit.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/Practice/practice13/Execution.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/Practice/practice13/counter.v" into library work
+WARNING:HDLCompiler:751 - "C:/Xilinx/14.7/Practice/practice13/counter.v" Line 67: Redeclaration of ansi port clk_count_out is not allowed
+Analyzing Verilog file "C:/Xilinx/14.7/Practice/practice13/Advanced_RISC-V_pipeline.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/Practice/practice13/tb_Advanced_RISCV_pipeline.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Xilinx/14.7/Practice/practice13/Advanced_RISC-V_pipeline.v" Line 52: Size mismatch in connection of port <digit>. Formal port size is 4-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx/14.7/Practice/practice13/Advanced_RISC-V_pipeline.v" Line 53: Size mismatch in connection of port <fnd>. Formal port size is 8-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx/14.7/Practice/practice13/Advanced_RISC-V_pipeline.v" Line 68: Size mismatch in connection of port <clk_count_out>. Formal port size is 32-bit while actual signal size is 1-bit.
+Completed static elaboration
+Compiling module LED_channel
+Compiling module counter
+Compiling module InFetch
+Compiling module Control_unit
+Compiling module InDecode
+Compiling module ALU_control
+Compiling module ALU
+Compiling module Execution
+Compiling module Memory
+Compiling module WB
+Compiling module Hazard_detection_unit
+Compiling module Forwarding_unit
+Compiling module Advanced_RISCV_pipeline
+Compiling module tb_simulation
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 지정된 경로를 찾을 수 없습니다, "isim\tb_simulation_isim_beh.exe.sim\libPortability.dll".
+Compiled 15 Verilog Units
+Built simulation executable C:/Xilinx/14.7/Practice/practice13/tb_simulation_isim_beh.exe
+Fuse Memory Usage: 30216 KB
+Fuse CPU Usage: 1343 ms
