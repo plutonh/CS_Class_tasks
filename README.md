@@ -7,4 +7,4 @@
 
 ## Contents
 
-- Projects using **Xilinx ISE Design Suite** and **verilog** in **Computer Structure** class
+- Projects using **Xilinx ISE Design Suite** and **Verilog** in **Computer Structure** class
